@@ -1,0 +1,17 @@
+{
+  "name": "mgw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass src/styles:public",
+    "sass:dev": "sass --watch --embed-source-map src/styles:public/styles",
+    "sass:prod": "sass --no-source-map --style compressed src/styles:public/styles"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.70.0"
+  }
+}

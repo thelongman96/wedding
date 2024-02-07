@@ -1,0 +1,267 @@
+@font-face {
+  font-family: "citadel";
+  src: url("fonts/Citadel.otf");
+}
+@-webkit-keyframes breathing {
+  0% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  50% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+@keyframes breathing {
+  0% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  50% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+html {
+  scroll-behavior: smooth;
+  /*Adds smooth scrolling instead of snapping to element*/
+}
+
+body {
+  margin: 0;
+}
+body .container {
+  font-family: "citadel";
+}
+body .container .screen {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+body .container .screen.one {
+  background-color: #fffef9;
+}
+body .container .screen.one .top {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  color: #004aad;
+}
+body .container .screen.one .top .mainText {
+  font-size: 70pt;
+  font-weight: 200;
+  letter-spacing: 8px;
+}
+body .container .screen.one .bottom {
+  flex: 1;
+  color: #004aad;
+  text-align: center;
+}
+body .container .screen.one .bottom .dateText {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 15pt;
+  margin-bottom: 20px;
+}
+body .container .screen.one .bottom .locationText {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 15pt;
+  font-weight: 200;
+  margin-bottom: 50px;
+}
+body .container .screen.one .bottom .rsvpButton {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 10pt;
+  padding: 10px 50px;
+  border: 1px solid #a091dd;
+  text-decoration: none;
+  letter-spacing: 1.6pt;
+}
+body .container .screen.one .bottom .anim {
+  -webkit-animation: breathing 10s ease-out infinite normal;
+  animation: breathing 10s ease-out infinite normal;
+  -webkit-font-smoothing: antialiased;
+}
+body .container .screen.one .bottom .topLeft {
+  height: 315px;
+  width: 492px;
+  position: absolute;
+  top: -30px;
+  left: -80px;
+}
+body .container .screen.one .bottom .topLeftCenter {
+  height: 319px;
+  width: 439px;
+  position: absolute;
+  top: -100px;
+  left: 20%;
+}
+body .container .screen.one .bottom .flowerthree {
+  height: 315px;
+  width: 492px;
+  position: absolute;
+  top: -50px;
+  right: -50px;
+}
+body .container .two,
+body .container .three,
+body .container .four,
+body .container .five,
+body .container .six,
+body .container .seven,
+body .container .eight,
+body .container .nine,
+body .container .ten,
+body .container .eleven,
+body .container .twelve {
+  flex-direction: row;
+  display: flex;
+}
+body .container .two .left,
+body .container .three .left,
+body .container .four .left,
+body .container .five .left,
+body .container .six .left,
+body .container .seven .left,
+body .container .eight .left,
+body .container .nine .left,
+body .container .ten .left,
+body .container .eleven .left,
+body .container .twelve .left {
+  flex: 1;
+}
+body .container .two .left .content,
+body .container .three .left .content,
+body .container .four .left .content,
+body .container .five .left .content,
+body .container .six .left .content,
+body .container .seven .left .content,
+body .container .eight .left .content,
+body .container .nine .left .content,
+body .container .ten .left .content,
+body .container .eleven .left .content,
+body .container .twelve .left .content {
+  margin-left: 250px;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+body .container .two .left .content .form,
+body .container .three .left .content .form,
+body .container .four .left .content .form,
+body .container .five .left .content .form,
+body .container .six .left .content .form,
+body .container .seven .left .content .form,
+body .container .eight .left .content .form,
+body .container .nine .left .content .form,
+body .container .ten .left .content .form,
+body .container .eleven .left .content .form,
+body .container .twelve .left .content .form {
+  background: "red";
+}
+body .container .two .left .content .form label,
+body .container .three .left .content .form label,
+body .container .four .left .content .form label,
+body .container .five .left .content .form label,
+body .container .six .left .content .form label,
+body .container .seven .left .content .form label,
+body .container .eight .left .content .form label,
+body .container .nine .left .content .form label,
+body .container .ten .left .content .form label,
+body .container .eleven .left .content .form label,
+body .container .twelve .left .content .form label {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 200;
+  font-size: 15pt;
+}
+body .container .two .left .content .form p,
+body .container .three .left .content .form p,
+body .container .four .left .content .form p,
+body .container .five .left .content .form p,
+body .container .six .left .content .form p,
+body .container .seven .left .content .form p,
+body .container .eight .left .content .form p,
+body .container .nine .left .content .form p,
+body .container .ten .left .content .form p,
+body .container .eleven .left .content .form p,
+body .container .twelve .left .content .form p {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 200;
+  font-size: 15pt;
+}
+body .container .two .right,
+body .container .three .right,
+body .container .four .right,
+body .container .five .right,
+body .container .six .right,
+body .container .seven .right,
+body .container .eight .right,
+body .container .nine .right,
+body .container .ten .right,
+body .container .eleven .right,
+body .container .twelve .right {
+  flex: 1;
+}
+body .container .two .right .content,
+body .container .three .right .content,
+body .container .four .right .content,
+body .container .five .right .content,
+body .container .six .right .content,
+body .container .seven .right .content,
+body .container .eight .right .content,
+body .container .nine .right .content,
+body .container .ten .right .content,
+body .container .eleven .right .content,
+body .container .twelve .right .content {
+  margin-right: 250px;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+body .container .title {
+  color: #004aad;
+  font-size: 35pt;
+  font-weight: 300;
+}
+body .container .head {
+  color: #004aad;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 900;
+  font-size: 15pt;
+}
+body .container .text {
+  color: #004aad;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 200;
+  font-size: 15pt;
+}
+body .container .olive {
+  background-color: #e6efd7;
+}
+body .container .pink {
+  background-color: #ffeaeb;
+}
+body .container .blue {
+  background-color: #F1F6FF;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../src/styles/main.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAAA;EACI;EACA;;AAGF;EACE;IACE;IACA;;EAEF;IACE;IACA;;EAEF;IACE;IACA;;;AAIJ;EACE;IACE;IACA;IACA;;EAEF;IACE;IACA;IACA;;EAGF;IACE;IACA;IACA;;;AAIJ;EACE;AACA;;;AAGF;EACE;;AACA;EACE;;AACA;EACE;EACA;EACA;EACA;EACA;EACA;EACA;;AAEF;EACE;;AACA;EACE;EACA;EACA;EACA;EACA;;AACA;EACE;EACA;EACA;;AAGJ;EACE;EACA;EA+CA;;AA9CA;EACE;EACA;EACA;;AAEF;EACE;EACA;EACA;EACA;;AAEF;EACE;EACA;EACA;EACA;EACA;EACA;;AAEF;EACE;EACA;EACA;;AAGF;EACE;EACA;EACA;EACA;EACA;;AAEF;EACE;EACA;EACA;EACA;EACA;;AAEF;EACE;EACA;EACA;EACA;EACA;;AAKN;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;EAWE;EACA;;AAEA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;EACE;;AACA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;EACE;EACA;EACA;EACA;EACA;EACA;;AAEA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;EACE;;AACA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;EACE;EACA;EACA;;AAEF;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;EACE;EACA;EACA;;AAMR;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;EACE;;AACA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;EACE;EACA;EACA;EACA;EACA;EACA;;AAIN;EACE;EACA;EACA;;AAEF;EACE;EACA;EACA;EACA;;AAEF;EACE;EACA;EACA;EACA;;AAEF;EACE;;AAEF;EACE;;AAEF;EACE%22,%22file%22:%22main.css%22%7D */

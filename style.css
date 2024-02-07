@@ -1,0 +1,199 @@
+@font-face {
+  font-family: 'citadel';
+  src: url('Citadel.otf');
+}
+
+@-webkit-keyframes breathing {
+  0% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  10% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  40% {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+
+  85% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  100% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+@keyframes breathing {
+  0% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  10% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+
+  40% {
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+
+  85% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+
+  100% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+  /*Adds smooth scrolling instead of snapping to element*/
+}
+
+body {
+  margin: 0;
+  .container {
+    font-family: 'citadel';
+    .screen {
+      height: 100vh;
+      display:flex;
+      flex-direction:column;
+      justify-content: center;
+      align-items: center;
+      overflow:hidden;
+      position:relative;
+    }
+    .screen.one {
+      background-color: #fffef9;
+      .top {
+        flex: 1;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        color:#004aad;
+        .mainText{
+          font-size: 70pt;
+          font-weight: 200;
+          letter-spacing: 8px;
+        }
+      }
+      .bottom {
+        flex: 1;
+        color:#004aad;
+        .dateText{
+          font-family: "Cormorant Garamond", serif;
+          font-size: 15pt;
+          margin-bottom: 20px;
+        }
+        .locationText{
+          font-family: "Cormorant Garamond", serif;
+          font-size: 15pt;
+          font-weight:200;
+          margin-bottom: 50px;
+        }
+        .rsvpButton{
+          font-family: "Cormorant Garamond", serif;
+          font-size: 10pt;
+          padding: 10px 50px;
+          border: 1px solid #a091dd;
+          text-decoration: none;
+          letter-spacing: 1.6pt;
+        }
+        .anim{
+          -webkit-animation: breathing 10s ease-out infinite normal;
+          animation: breathing 10s ease-out infinite normal;
+          -webkit-font-smoothing: antialiased;
+        }
+        
+        img{
+          height: 100px;
+          width: 100px;
+          position:absolute;
+          bottom:-50px;
+        }
+        text-align: center;
+      }
+    }
+    .two,
+    .three,
+    .four,
+    .five,
+    .six,
+    .seven,
+    .eight,
+    .nine,
+    .ten,
+    .eleven,
+    .twelve {
+      flex-direction: row;
+      display:flex;
+
+      .left {
+        flex:1;
+        .content {
+          margin-left:250px;
+          width: 60%;
+          display:flex;
+          justify-content: center;
+          flex-direction: column;
+          text-align:center;
+        }
+      }
+      .right{
+        flex:1;
+        .content {
+          margin-right:250px;
+          width: 60%;
+          display:flex;
+          justify-content: center;
+          flex-direction: column;
+          text-align:center;
+        }
+      }
+    }
+    .title{
+      color:#004aad;
+      font-size: 35pt;
+      font-weight: 300;
+    }
+    .head {
+      color:#004aad;
+      font-family: "Cormorant Garamond", serif;
+      font-weight: 900;
+      font-size: 15pt;
+    }
+    .text {
+      color:#004aad;
+      font-family: "Cormorant Garamond", serif;
+      font-weight: 200;
+      font-size: 15pt;
+    }
+    .olive {
+      background-color: #e6efd7;
+    }
+    .pink{
+      background-color: #ffeaeb;
+    }
+    .blue {
+      background-color: #F1F6FF;
+    }
+  }
+}
+

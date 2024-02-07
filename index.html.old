@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Genevieve and Matthews Wedding</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="menu">
+
+      </div>
+    </div>
+    <div class="screen one">
+      <div class="top">
+        <h1 class="mainText">Genevieve &amp; Matthew</h1>
+      </div>
+      <div class="bottom">
+        <h2 class="dateText">7th May 2024</h2>
+        <h2 class="locationText">Hawkstone Hall, Shropshire</h2>
+        <a href="#screentwo" class="rsvpButton">CLICK HERE TO RSVP</a>
+        <img src="test.png" class="testimg" /> 
+      </div>
+    </div>
+    <div class="screen two olive" id="screentwo">
+      <div class="left">
+        <div class="content">
+            <h1 class="title">Our Fairy Tale Begins</h1>
+            <h2 class="text"><b><i>Genevieve and Matthew</i></b> found each other online in 2022. From the moment they first met,
+            they knew they were meant to be together forever and exactly one year to the day of their first date,
+          Matthew got down on one knee in Madiera.</h2>
+          <h2 class="text">The happy couple are tying the knot this May</h2>
+          </div>
+        </div>
+      <div class="right">
+
+      </div>
+    </div>
+    <div class="screen three pink" id="screenthree">
+      <div class="left">
+        <div class="content">
+            <h1 class="title">The Venue</h1>
+            <h2 class="head">Hawkstone Hall & Gardens<br />
+              Weston<br />
+              Shrewsbury<br />
+              SY4 5UZ<br />
+              </h2>
+              
+              <h2 class="head">Directions</h2> 
+              <p class="text">The hall is entered via Hawkstone Lodge through an electric gate, signposted 'Guest Entrance', 
+                in the village of Weston-Under-Redcastle off the main road. 
+                Brown road signs for Hawkstone Hall & Gardens can be found on most junctions.</p>
+              
+              <h2 class="head">Parking</h2> 
+              <p class="text">Please do not park at the front of the venue, there is a guest car park to side.</p>
+          </div>
+        </div>
+      <div class="right">
+
+      </div>
+    </div>
+    <div class="screen four blue" id="screenfour">
+      <div class="left">
+      </div>
+      <div class="right">
+        <div class="content">
+          <h1 class="title">Ceremony</h1>
+          <p class="text">*(welcome drinks?)<br />
+            Please arrive at the venue by 1:30pm. The Ceremony will commence at 2:00pm in the Chapel<br />
+            We respectfully request that guests put away their phones and cameras during the ceremony as professional 
+            photos will be taken throughout the day. We invite you to enjoy the moment, 
+            and we promise to share our pictures with you after our celebration.
+            <br />
+            Drinks reception to follow and an opportunity to explore the venue and elegant gardens.</p>
+        </div>
+      </div>
+    </div>
+    <div class="screen five olive" id="screenfive">
+      <div class="left">
+        <div class="content">
+            <h1 class="title">Wedding Breakfast</h1>
+            <h2 class="text">
+              Join us in the Ballroom at 4pm to enjoy a wonderful three course meal. 
+              </h2>
+<h2 class="text">Please let us know of any allergies or dietary requirements</h2>
+              
+              
+              <h2 class="head">Speeches</h2> 
+              <h2 class="text">
+                Immediately following the meal, expect speeches and toasts from family and friends and a cheese course will be served. 
+              </h2>
+          </div>
+        </div>
+      <div class="right">
+
+      </div>
+    </div>
+    <div class="screen six pink" id="screensix">
+      <div class="left">
+        <div class="content">
+            <h1 class="title">The Venue</h1>
+            <h2 class="head">Hawkstone Hall & Gardens<br />
+              Weston<br />
+              Shrewsbury<br />
+              SY4 5UZ<br />
+              </h2>
+              
+              <h2 class="head">Directions</h2> 
+              <p class="text">The hall is entered via Hawkstone Lodge through an electric gate, signposted 'Guest Entrance', 
+                in the village of Weston-Under-Redcastle off the main road. 
+                Brown road signs for Hawkstone Hall & Gardens can be found on most junctions.</p>
+              
+              <h2 class="head">Parking</h2> 
+              <p class="text">Please do not park at the front of the venue, there is a guest car park to side.</p>
+          </div>
+        </div>
+      <div class="right">
+
+      </div>
+    </div>
+    <div class="screen seven blue" id="screenseven">
+      <div class="left">
+      </div>
+      <div class="right">
+        <div class="content">
+          <h1 class="title">Ceremony</h1>
+          <p class="text">*(welcome drinks?)<br />
+            Please arrive at the venue by 1:30pm. The Ceremony will commence at 2:00pm in the Chapel</p>
+            <p class="text">
+            We respectfully request that guests put away their phones and cameras during the ceremony as professional 
+            photos will be taken throughout the day. We invite you to enjoy the moment, 
+            and we promise to share our pictures with you after our celebration.</p>
+            <p class="text">
+            Drinks reception to follow and an opportunity to explore the venue and elegant gardens.</p>
+        </div>
+      </div>
+    </div>
+    <div class="screen eight olive" id="screeneight">
+      <div class="left">
+        <div class="content">
+          <h1 class="title">Wedding Breakfast</h1>
+          <p class="text">Join us in the Ballroom at 4pm to enjoy a wonderful three course meal. </p>
+            <p class="text">Please let us know of any allergies or dietary requirements</p>
+            <h2 class="head">Speeches</h2>
+            <p class="text">Immediately following the meal, expect speeches and toasts from family and friends and a cheese course will be served. </p>
+        </div>
+      </div>
+      <div class="right">
+
+      </div>
+    </div>
+    <div class="screen nine pink" id="screennine">
+      <div class="left">
+
+      </div>
+      <div class="right">
+        <div class="content">
+          <h1 class="title">Evening Reception</h1>
+          <h2 class="head">Cake Cutting</h2>
+          <p class="text">Observe the cake cutting in the Saloon. 
+          There will be something for everyone with a different flavour in each tier.</p>
+
+          <h2 class="head">First Dance</h2>
+          <p class="text">Celebrate Genevieve and Matthew's  first dance together as a married couple.</p>
+
+          <h2 class="head">Party</h2>
+          <p class="text">Prepare to dance the night away in the Refectory.</p>
+
+          <h2 class="head">Evening Food</h2>
+          <p class="text">Grab a slice of pizza and get back out on the dance floor.</p>
+
+          <h2 class="head">If partying is not for you</h2>
+          <p class="text">Make the most of the beautiful spaces throughout the venue to enjoy a more relaxed atmosphere.</p>
+
+          <h2 class="head">Until Late</h2>
+          <p class="text">Bar close and taxies is promptly at 1.00am. Due to the rural location we strongly recommend pre- booking your taxi if you are not staying overnight.</p>
+        </div>
+      </div>
+    </div>
+    <div class="screen ten blue" id="screenten">
+      <div class="left">
+        <div class="content">
+          <h1 class="title">The Little Details</h1>
+          <h2 class="head">Cake Cutting</h2>
+          <p class="text">Observe the cake cutting in the Saloon. 
+          There will be something for everyone with a different flavour in each tier.</p>
+
+          <h2 class="head">Dress code</h2>
+          <p class="text">Please come in Black Tie attire.
+          <i>no white dresses</i>
+          suggestions</p>
+
+          <p class="text">We recommend heel protectors for gravel and outdoor areas.</p>
+
+          <h2 class="head">Children</h2>
+          <p class="text">We are unable to accommodate children at our wedding apart from the pageboys. We hope that advance notice means you are still able to attend.</p>
+
+          <h2 class="head">Gifts</h2>
+          <p class="text">If you are considering a gift, we would be honoured if you would contribute to our honeymoon fund instead. Your generosity will help us create unforgettable memories and start our lives together on an incredible adventure.
+          If you wish to make a contribution our honeymoon fund details are as follows:</p>
+
+
+          <p class="text"><b>Please note</b> Hawkstone Hall is a cashless venue, card payments required at the bars</p>
+
+        </div>
+      </div>
+      <div class="right">
+
+      </div>
+    </div>
+    <div class="screen eleven olive" id="screeneleven">
+      <div class="left">
+      </div>
+      <div class="right">
+        <div class="content">
+          <h1 class="title">Accomodation</h1>
+          <p class="text">If you wish to stay at Hawkstone Hall, please let us know as a number of rooms are available and reserved just for our guests.</p>
+
+          <h2 class="head">Additional Accommodation</h2>
+          <p class="text">hawkstone park hotel 
+          travel time: approx 7 minutes 
+          <a href="http://www.hawkstone.co.uk">www.hawkstone.co.uk</a></p>
+          
+          <p class="text">premier inn 
+          travel time: approx 30 minutes 
+          <a href="http://www.premierinn.com">www.premierinn.com</a></p>
+           
+          <p class="text">If you require any additional information please let us know on the RSVP form</p>
+          
+          <p class="text">*(link to RSVP form)</p>
+        </div>
+      </div>
+    </div>
+    <div class="screen twelve pink" id="screentwelve">
+      <div class="left">
+        <div class="content">
+          <h1 class="title">RSVP</h1>
+
+        </div>
+      </div>
+      <div class="right">
+
+      </div>
+    </div>
+  </div>
+</body>
+</html>
